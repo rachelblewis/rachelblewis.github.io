@@ -1,0 +1,75 @@
+h1 {
+font-family: 'trebuchet MS';
+}
+
+h3 { 
+    color: blue;
+    /* this grabs anything with an h3 designation */
+    font-style: italic;
+    }
+
+
+    p{
+        color:purple;
+    }
+
+    /* update links to override the CSS rules for how hyperlinks should look */
+    a{ 
+        color:silver;
+    }
+
+
+/* Then to make a link inside a paragraph orange then can do the below */
+
+p a {
+    color: turquoise;
+}
+
+/* Then can target an id.. .e.g. p1 in this case since set ID to that on previous page */
+
+#p1 {
+    color: maroon;
+    /* selects based on set IDs */
+    /* note, this will get overwritten */
+}
+
+#p1 {
+    color: magenta;
+    text-align: center;
+}
+
+#p3 {
+    font-style: italic; 
+    text-decoration: underline;
+    font-size: 22px;
+}
+
+/* Can create a class and assign multiple things to a class, since you can only have one of each ID on a page
+Then use .then class name to do everything with that class */
+
+.ExampleClassName1 {
+    font-size: 28px;
+}
+
+/* IDs "win" then classes. Also if you have two attributes for the same ID, will take the LAST one */
+
+img {
+    height: 455px;
+}
+
+table {
+    border-color: black; 
+    border-style: dotted;
+    border-width: 5px;
+    background-color: silver;
+    /* not sure if this padding does anything? */
+    padding: 0 10px 10px 0; 
+    }
+
+th {
+    font-size: 20px;
+}
+
+body {
+    background-color: #00c7ff;
+}
