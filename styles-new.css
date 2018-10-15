@@ -2,4 +2,13 @@ jumbotron {
 /* This isn't going */
     background-color: #800000;
 
+
+    
+}
+
+h1 {
+    font-family: 'Homemade Apple', cursive; 
+    /* note that cursive is a "backup" font */
+    font-size: 80px;
+    color: purple;
 }

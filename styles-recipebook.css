@@ -1,0 +1,170 @@
+.navbar {
+    font-size: 18px;
+    font-family: 'Walter Turncoat', cursive;
+}
+
+.dropdown-item {
+color:rgb(62, 78, 35);
+}
+
+.dropdown-menu {
+    position: absolute; 
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: whitesmoke;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: whitesmoke;
+} 
+
+
+.jumbotron {
+    background-image: url(food.jpg);
+    height: 500px;
+    background-attachment: fixed; 
+    /* fixed keeps the image on the top of the page, can do scroll to have the top jumbotron move  */
+    background-size: cover;
+    /* padding: 90px; */
+    color: white;
+    font-family: 'Rock Salt', cursive;
+    font-weight: bold;
+    font-size: 52px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+
+
+p.homepagetext {
+    font-size: 27pt;
+}
+
+
+          /* Formatting here for the individual recipe pages start */
+
+.jumbotron.chili-jumbotron {
+background-image: url(turkeychili.jpg);
+height: 400px;
+background-attachment: fixed; 
+/* fixed keeps the image on the top of the page, can do scroll to have the top jumbotron move  */
+background-size: cover;
+background-position: center center;
+/* padding: 90px; */
+color: rgb(62, 78, 35);
+font-family: 'Walter Turncoat', cursive;
+font-weight: bold;
+font-size: 60px;
+/* text-align:center; */
+display: flex;
+justify-content: center;
+align-items: center;
+    }
+
+.jumbotron.cioppino-jumbotron {
+    background-image: url(cioppino3.jpg);
+    height: 400px;
+    background-attachment: fixed; 
+    /* fixed keeps the image on the top of the page, can do scroll to have the top jumbotron move  */
+    background-size: cover;
+    background-position: center center;
+    /* padding: 90px; */
+    color: navy;
+    font-family: 'Walter Turncoat', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    /* text-align:center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+
+.jumbotron.bbqpizza-jumbotron {
+    background-image: url(bbqchickenpizza5.jpg);
+    height: 400px;
+    background-attachment: fixed; 
+    /* fixed keeps the image on the top of the page, can do scroll to have the top jumbotron move  */
+    background-size: cover;
+    background-position: center center;
+    /* padding: 90px; */
+    color: rgb(62, 78, 35);
+    font-family: 'Walter Turncoat', cursive;
+    font-weight: bold;
+    font-size: 60px;
+    /* text-align:center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        }
+
+    
+    
+
+        .container-fluid {
+            padding: 0px;
+        }
+
+        .table-headers{
+            color: white;
+            font-family: 'Rock Salt', cursive; 
+            padding: 15px;
+        }
+
+        p{
+            color: white;
+            font-family: 'Walter Turncoat', cursive;
+            padding: 10px;
+            text-align: center;
+           margin-left: 25px;
+           margin-right: 25px;
+                   }
+
+        table{
+            color: white;
+            font-family: 'Walter Turncoat', cursive;
+            text-align: center;
+            margin: auto;
+            margin-bottom: 30px;
+                                   }
+
+        h3 {
+        color: white;
+        font-family: 'Walter Turncoat', cursive;
+        padding: 5px;
+        text-align: center;
+        margin-left: 25px;
+        margin-right: 25px;
+        font-size: 16px;
+    }
+
+        h4 {
+            color: white;
+            font-family: 'Walter Turncoat', cursive;
+            padding: 5px;
+            /* text-align: center; */
+           margin-left: 25px;
+           margin-right: 25px;
+           font-size: 16px;
+        }
+
+
+        .cioppinopagetext {
+            font-size: 22pt;
+        }
+
+        .bbqpagetext {
+            font-size: 22pt;
+        }
+
+        a {
+            color:rgb(62, 78, 35);
+        }
+
+        .btn.btn-secondary {
+            align-items:center;
+            font-family: 'Walter Turncoat', cursive;
+            font-size: 23px;
+            margin-bottom: 22px;
+        }
+           
